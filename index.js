@@ -10,4 +10,4 @@ app.set('view engine','ejs')
 app.use('/api',router)
 app.listen(port,()=>{
     console.log(`server running on port ${port}`)
-})
+}) 

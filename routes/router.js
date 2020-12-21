@@ -9,7 +9,7 @@ router.post('/info',(req,res)=>{
     let re = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
     if(!req.body.email.match(re)){
         return res.send(`error email format is incorrect`)
-    }
+    } 
 
     return res.status(200).render('info.ejs',{
         name: req.body.name,
