@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- FontAwesome CSS -->
+  </head>
+
+  <body>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 border-bottom ">
+      
+    </div>
+    <div class="container">
+      <div class="px-3 py-3 pb-md-4 mx-auto text-center">
+        <h1 class="h1">Registro</h1>
+      </div>
+      <form action='/api/info' method="POST">
+       
+         
+            <label for="nombres">Username</label> <span class="text-danger" id="errornombres"></span>
+            <input type="text" name="name" class="form-control" id="name" placeholder="Nombres">
+     
+            <label for="email">Email</label> <span class="text-danger" id="errorEmail"></span>
+            <input type="text" name="email" class="form-control" id="email" placeholder="Email">
+  
+        
+       
+          
+        <input value="continuar" type="submit" class="btn gradient-bg">
+      </form>
+
+    </div>
+
+
+    <footer class="site-footer" class="pt-2 my-2 border-top text-center">
+      <p>
+       Derechos Reservados @2020
+      </p>
+    </footer>
+
+    
+  </body>
+  </html>
